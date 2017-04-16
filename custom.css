@@ -97,3 +97,22 @@ p {
     text-align: center;
     font-style: italic;
 }
+#home{
+    margin:auto;
+    text-align:center;
+}
+#info{
+    margin: auto;
+    text-align:center;
+}
+#gallery{
+    margin:auto;
+    text-align:center;
+}
+#testimonials{
+    margin:auto;
+    text-align:center;
+}
+footer{
+    text-align:center;
+}

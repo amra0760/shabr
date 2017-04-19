@@ -10,14 +10,16 @@
 .landingH1 {
     color: white;
     font-size: 40px;
-    font-family:'Anton', sans-serif;;
+    font-family:'Anton', sans-serif;
+    text-align: center;
 }
 
 .landingH2 {
     color: white;
     font-size: 30px;
     font-style: italic;
-    font-family: 'Lobster', cursive;;
+    font-family: 'Lobster', cursive;
+    text-align: center;
 }
 
 html,
@@ -43,7 +45,10 @@ p {
     text-align: justify
 }
 
-.homeH3 {
+.homeP{
+    text-align: center;
+}
+.infoH3 {
     display: inline-block;
 }
 
@@ -125,4 +130,6 @@ p {
 footer{
     text-align:center;
 }
->>>>>>> 8c728a271da65e4429357b74b2a6e2d6dc9bfb44
+h1, h2{
+    text-align: left;
+}

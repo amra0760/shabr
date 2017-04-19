@@ -84,6 +84,7 @@ p {
 
 .test-images {
     height: 100px;
+    width: 150px;
     display: inline;
     margin-right: 10px;
 }
@@ -96,4 +97,10 @@ p {
 #infoH2 {
     text-align: center;
     font-style: italic;
+}
+#clipart{
+    height: 40px;
+}
+#lastTest{
+    font-size: 16px;
 }

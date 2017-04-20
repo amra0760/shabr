@@ -1,0 +1,245 @@
+#landing {
+    display: table;
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/balloon-4.jpg) no-repeat center;*/
+    background-size: cover;
+    ;
+}
+
+.landingH1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.landingH2 {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 129, 129, 0.5);
+}
+
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.home-glyphicon {
+    color: black;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+p {
+    text-align: justify
+}
+
+.homeP {
+    text-align: center;
+}
+
+.infoH3 {
+    display: inline-block;
+}
+
+#glyphicon-home {
+    color: black;
+    font-size: 1.0em;
+    display: inline-block;
+}
+
+#home {
+    margin: auto;
+    text-align: center;
+    background-color: #B8FFD6;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+#info {
+    background-color: #D8EDFF;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+#gallery {
+    background-color: #F5F6CE;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+#testimonials {
+    background-color: #A9F5F2;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+     margin-bottom: 20px;
+}
+
+#contacts {
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+.container {
+    border-radius: 25px;
+    border-width: 20px;
+    margin: auto;
+    padding-left: auto;
+}
+
+.test-images {
+    height: 100px;
+    width: 150px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.contacts {
+    text-align: center;
+    font-weight: bold;
+}
+
+#infoH2 {
+    text-align: center;
+    font-style: italic;
+}
+
+#clipart {
+    height: 40px;
+}
+
+#lastTest {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: left;
+}
+
+@media(max-width:768px) {
+    .landingH1 {
+        font-size: 40px
+    }
+    .landingH2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .test-images {
+        height: 100px;
+        width: 150px;
+        display: inline;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:768px) {
+    .landingH1 {
+        font-size: 50px
+    }
+    .landingH2 {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 37px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 19px;
+    }
+    .test-images {
+        height: 110px;
+        width: 160px;
+        display: inline;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:992px) {
+    .landingH1 {
+        font-size: 60px;
+    }
+    .landingH2 {
+        font-size: 50px;
+    }
+    h1 {
+        font-size: 39px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .landingH1 {
+        font-size: 70px;
+    }
+    .landingH2 {
+        font-size: 60px;
+    }
+    h1 {
+        font-size: 41px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 21px;
+    }
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(img/balloon-4.jpg);
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

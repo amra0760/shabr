@@ -150,6 +150,7 @@ footer{
 h1, h2{
     text-align: left;
 }
+
 /*@media only screen and (max-width: 768px) {*/
 /*    .test-images {*/
 /*        height: 150px;*/
@@ -160,3 +161,30 @@ h1, h2{
 /*        float: center;*/
 /*    }*/
 /*}*/
+
+@media(min-width:768px) {
+    .landingH1 {
+      font-size: 50px
+    }
+    .landingH2 {
+      font-size: 40px;
+    }
+  }
+  
+  @media(min-width:992px) {
+    .landingH1 {
+      font-size: 60px;
+    }
+    .landingH2 {
+      font-size: 50px;
+    }
+  }
+  
+  @media(min-width:1200px) {
+    .landingH1 {
+      font-size: 70px;
+    }
+    .landingH2 {
+      font-size: 60px;
+    }
+  }

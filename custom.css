@@ -95,16 +95,20 @@ p {
 
 .container {
     border-radius: 25px;
-    margin-color: white;
+    border-color: white;
     border-width: 20px;
     margin: 10px
 }
 
 .test-images {
-    height: 100px;
+    height: 125px;
     width: 150px;
-    display: inline;
+    display: inline-block;
     margin-right: 10px;
+    float: left;
+}
+.testP{
+    display: block;    
 }
 
 .contacts {
@@ -146,3 +150,13 @@ footer{
 h1, h2{
     text-align: left;
 }
+/*@media only screen and (max-width: 768px) {*/
+/*    .test-images {*/
+/*        height: 150px;*/
+/*        width: auto;*/
+/*        max-width: 300px;*/
+/*        display: block;*/
+/*        margin-right: 0px;*/
+/*        float: center;*/
+/*    }*/
+/*}*/
